@@ -1,0 +1,11 @@
+ Firstly install  ' pip install phonenumbers'
+ 
+ import phonenumbers  // then import it..
+ 
+ from phonenumbers import geocoder // import geocoder
+ 
+  a = input(' Enter your number :') // specify the phone number 
+  
+  phonenumbers = phonenumbers.parse(a) //cloduing.com
+   
+  print(geocoder.description_for_number (phonenumber,'en')) // diplay the location of the phone number
